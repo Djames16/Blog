@@ -12,3 +12,11 @@
 </li>
 {% endfor %}
 </ul>
+
+<ul>
+{% for post in site.posts%}
+<li>
+<a href="/Blog{{post.url}}">{{}}</a>
+</li>
+{% endfor %}
+</ul>
