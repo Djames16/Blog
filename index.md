@@ -8,7 +8,7 @@
 <ul>
 {% for post in site.posts%}
 <li>
-<a href="/Blog{{post.url}}">{{post.title}}</a>
+<a href="/Blog{{post.url}}">{{1st post.title}}</a>
 </li>
 {% endfor %}
 </ul>
@@ -16,7 +16,7 @@
 <ul>
 {% for post in site.posts%}
 <li>
-<a href="/Blog{{post.url}}">{{}}</a>
+<a href="/Blog{{post.url}}">{{A python todo.title}}</a>
 </li>
 {% endfor %}
 </ul>
